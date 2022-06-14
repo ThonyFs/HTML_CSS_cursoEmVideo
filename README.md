@@ -1,5 +1,10 @@
 # HTML_CSS_cursoEmVideo
 curso HTML5 &amp; CSS3 do canal Curso em Vídeo.   
+
+## ESTRUTURA BASICA HTML
+* primeira linha, informar: < !DOCTYPE html>
+* tag< html lang="pt-br"> informa que o site será em portugues < /html>
+
 ## COMANDOS HTML
 Aberturas de tag ( demonstrada em " < > " ) na maioria das vez a tag deve ser fechada ( < / >)
 
@@ -20,6 +25,6 @@ Aseguir exemplo de declaração, onde informamos a font, o tamanho da font e a c
     font-size: 20pt;
     color: blue;
 } 
-
+cada declaração é um conjuto de propriedade e valores
 - Propriedade: font-family, font-size, color 
 - valores: Arial, 20pt, blue
