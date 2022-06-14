@@ -1,2 +1,2 @@
 # HTML_CSS_cursoEmVideo
-curso HTML &amp; CSS do canal Curso em Vídeo.  
+curso HTML5 &amp; CSS3 do canal Curso em Vídeo.   
