@@ -13,7 +13,7 @@ informa que o site sera reproduzido em scala de 100% da tela
 * tag< title> < /title> titulo da pagina
 
 # Exemplo da estrutura basica:
-* < !DOCTYPE hmtl>
+* < !DOCTYPE hmtl> 
 * < html lang="pt-br">
 *    < head> (essa é a area de configuracao)
 *        < meta charset="UTF-8">
