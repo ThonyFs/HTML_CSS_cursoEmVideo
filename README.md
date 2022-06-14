@@ -27,7 +27,7 @@ informa que o site sera reproduzido em scala de 100% da tela
 *    (aqui fica o corpo do site)
 *        < h1>Olá, Mundo! < /h1>
 *    < /body>
-*< /html>
+* < /html>
 
 
 ## COMANDOS HTML
