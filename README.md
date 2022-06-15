@@ -37,7 +37,8 @@ Aberturas de tag ( demonstrada em " < > " ) na maioria das vez a tag deve ser fe
 dentro da tag onde não tem fechamento, essa tag de imagem possui PARAMETROS ( SRC , ALT) seus valores estão entre aspas ( " " ).
 - SRC = origem da foto ( seu titulo)
 - ALT = texto alternativo
-
+* < br> para quebrar linha em um paragrafo
+* &lt ; &gt ; para implementar os sinais < > na execução 
 ## COMANDOS CSS
 
 Seletores demarcam as linhas a serem executadas.
