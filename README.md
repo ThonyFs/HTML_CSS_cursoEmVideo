@@ -5,6 +5,8 @@ curso HTML5 &amp; CSS3 do canal Curso em Vídeo.
 * https://emojipedia.org/ (link para pag de emoji)
 * https://unsplash.com/ ( biblioteca de imagens com licenças)
 * www.pexels.com (biblioteca de imagens com licenças)
+* https://iconarchive.com/ (biblioteca de icones)
+* https://www.favicon.cc/ (pag para criar icones)
 <hr>
 
 ## ESTRUTURA BASICA HTML
