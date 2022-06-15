@@ -23,7 +23,7 @@ informa que o site sera reproduzido em scala de 100% da tela
 <hr>
 
 # Exemplo da estrutura basica:
-<!DOCTYPE hmtl> <br> 
+< !DOCTYPE hmtl> <br> 
 < html lang="pt-br"> <br>
 ..  < head> (essa é a area de configuracao) <br>
 ..  < meta charset="UTF-8"> <br>
@@ -54,7 +54,10 @@ dentro da tag onde não tem fechamento, essa tag de imagem possui PARAMETROS ( S
 .... &#x1F47D; &#x1F596; <br>
 para declarar o emoji utilizamos, "&#x" seguido do codigo do emoji obtido no site e " ; " no final .
 * Para adicionar simbolos: <br>
-Utiliza-se " & " + nome do simbolo ou " &# " + numero do simbolo disponivel no link
+Utiliza-se " & " + nome do simbolo ou " &# " + numero do simbolo disponivel no link <br>
+* Para adicionar um FAVICON: <br>
+Utilize os link informado se precisar gerar ou criar um icon <br>
+na área < head> digite __LINK__ e escolha "link:favicon", no atributo "href" inclua o nome do arquivo .icon .
 <hr>
 
 ## COMANDOS CSS
