@@ -52,6 +52,7 @@ para declarar o emoji utilizamos, "&#x" seguido do codigo do emoji obtido no sit
 * Para adicionar simbolos: <br>
 Utiliza-se " & " + nome do simbolo ou " &# " + numero do simbolo disponivel no link
 <hr>
+
 ## COMANDOS CSS
 
 Seletores demarcam as linhas a serem executadas.
