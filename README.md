@@ -3,6 +3,8 @@ curso HTML5 &amp; CSS3 do canal Curso em Vídeo.
 
 * https://www.w3schools.com/charsets/ref_utf_symbols.asp (link para pag de simplos) 
 * https://emojipedia.org/ (link para pag de emoji)
+* https://unsplash.com/ ( biblioteca de imagens com licenças)
+* www.pexels.com (biblioteca de imagens com licenças)
 
 ## ESTRUTURA BASICA HTML
 * primeira linha, informar: < !DOCTYPE html>
