@@ -1,6 +1,9 @@
 # HTML_CSS_cursoEmVideo
 curso HTML5 &amp; CSS3 do canal Curso em Vídeo.   
 
+* https://www.w3schools.com/charsets/ref_utf_symbols.asp (link para pag de simplos) 
+
+
 ## ESTRUTURA BASICA HTML
 * primeira linha, informar: < !DOCTYPE html>
 * tag< html lang="pt-br"> informa que o site será em portugues < /html>
