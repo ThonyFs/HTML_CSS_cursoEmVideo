@@ -5,6 +5,7 @@ curso HTML5 &amp; CSS3 do canal Curso em Vídeo.
 * https://emojipedia.org/ (link para pag de emoji)
 * https://unsplash.com/ ( biblioteca de imagens com licenças)
 * www.pexels.com (biblioteca de imagens com licenças)
+<hr>
 
 ## ESTRUTURA BASICA HTML
 * primeira linha, informar: < !DOCTYPE html>
@@ -16,7 +17,7 @@ curso HTML5 &amp; CSS3 do canal Curso em Vídeo.
         content="width=device-width, initial-scale=1.0"> 
 informa que o site sera reproduzido em scala de 100% da tela
 * tag< title> < /title> titulo da pagina
-
+<hr>
 # Exemplo da estrutura basica:
 <!DOCTYPE hmtl> <br> 
 < html lang="pt-br"> <br>
@@ -43,12 +44,14 @@ dentro da tag onde não tem fechamento, essa tag de imagem possui PARAMETROS ( S
 - SRC = origem da foto ( seu titulo)
 - ALT = texto alternativo
 * < br> para quebrar linha em um paragrafo
-* &lt ; &gt ; para implementar os sinais < > na execução. <br>
+* utilize "&lt ;" e "&gt ;" para implementar os sinais < > na execução. <br>
 * Para adicionar emoji: <br>
-        Vamos adicionar alguns emoji: <br>
-        &#x1F47D; &#x1F596; <br>
-        para declarar o emoji utilizamos, "&#x" seguido do codigo do emoji obtido no site e " ; " no final .
-        
+.... Vamos adicionar alguns emoji: <br>
+.... &#x1F47D; &#x1F596; <br>
+para declarar o emoji utilizamos, "&#x" seguido do codigo do emoji obtido no site e " ; " no final .
+* Para adicionar simbolos: <br>
+Utiliza-se " & " + nome do simbolo ou " &# " + numero do simbolo disponivel no link
+<hr>
 ## COMANDOS CSS
 
 Seletores demarcam as linhas a serem executadas.
