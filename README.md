@@ -62,6 +62,6 @@ Aseguir exemplo de declaração, onde informamos a font, o tamanho da font e a c
     font-size: 20pt; <br>
     color: blue; <br>
 } 
-cada declaração é um conjuto de propriedade e valores
-- Propriedade: font-family, font-size, color 
+cada declaração é um conjuto de propriedade e valores <br>
+- Propriedade: font-family, font-size, color <br>
 - valores: Arial, 20pt, blue
