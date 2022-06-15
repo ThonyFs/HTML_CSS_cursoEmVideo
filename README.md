@@ -18,6 +18,7 @@ curso HTML5 &amp; CSS3 do canal Curso em Vídeo.
 informa que o site sera reproduzido em scala de 100% da tela
 * tag< title> < /title> titulo da pagina
 <hr>
+
 # Exemplo da estrutura basica:
 <!DOCTYPE hmtl> <br> 
 < html lang="pt-br"> <br>
