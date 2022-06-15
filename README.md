@@ -16,13 +16,13 @@ informa que o site sera reproduzido em scala de 100% da tela
 * < !DOCTYPE hmtl> 
 * < html lang="pt-br">
 *    < head> (essa é a area de configuracao)
-*        < meta charset="UTF-8">
-*        < meta name="viewport"
-*        content="width=device-width, initial-scale=1.0">
-*        < title> titulo da pagina < /title>
+*    < meta charset="UTF-8">
+*    < meta name="viewport"
+*    content="width=device-width, initial-scale=1.0">
+*    < title> titulo da pagina < /title>
 *    < /head>
 *    < body> (aqui fica o corpo do site)
-*        < h1>Olá, Mundo! < /h1>
+*    < h1>Olá, Mundo! < /h1>
 *    < /body>
 * < /html>
 
@@ -30,7 +30,7 @@ informa que o site sera reproduzido em scala de 100% da tela
 ## COMANDOS HTML
 Aberturas de tag ( demonstrada em " < > " ) na maioria das vez a tag deve ser fechada ( < / >)
 
-*< hr> para criar um linha horizontal, essa tag não necessita fechamento.
+* < hr> para criar um linha horizontal, essa tag não necessita fechamento.
 * Exemplos de titulos: < h1 > exemplo de título < /h1 > 
 * Exemplo de paragrafo: < p > exemplo de paragrafo < /p >
 * Exemplo de imagem: < img src="foto.png" alt="exemplo de foto" >
