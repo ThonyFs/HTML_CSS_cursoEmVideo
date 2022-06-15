@@ -18,19 +18,19 @@ informa que o site sera reproduzido em scala de 100% da tela
 * tag< title> < /title> titulo da pagina
 
 # Exemplo da estrutura basica:
-* < !DOCTYPE hmtl> 
-* < html lang="pt-br">
-*    < head> (essa é a area de configuracao)
-*    < meta charset="UTF-8">
-*    < meta name="viewport"
-*    content="width=device-width, initial-scale=1.0">
-*    < title> titulo da pagina < /title>
-*    < /head>
-*    < body> (aqui fica o corpo do site)
-*    < h1>Olá, Mundo! < /h1>
-*    < /body>
-* < /html>
-
+<!DOCTYPE hmtl> <br> 
+< html lang="pt-br"> <br>
+..  < head> (essa é a area de configuracao) <br>
+..  < meta charset="UTF-8"> <br>
+..  < meta name="viewport" <br>
+..   content="width=device-width, initial-scale=1.0"> <br>
+..  < title> titulo da pagina < /title > <br>
+..  < /head> <br>
+..  < body> (aqui fica o corpo do site) <br>
+..  < h1>Olá, Mundo! < /h1> <br>
+..  < /body> <br>
+  < /html>
+<hr>
 
 ## COMANDOS HTML
 Aberturas de tag ( demonstrada em " < > " ) na maioria das vez a tag deve ser fechada ( < / >)
@@ -43,16 +43,21 @@ dentro da tag onde não tem fechamento, essa tag de imagem possui PARAMETROS ( S
 - SRC = origem da foto ( seu titulo)
 - ALT = texto alternativo
 * < br> para quebrar linha em um paragrafo
-* &lt ; &gt ; para implementar os sinais < > na execução 
+* &lt ; &gt ; para implementar os sinais < > na execução. <br>
+* Para adicionar emoji: <br>
+        Vamos adicionar alguns emoji: <br>
+        &#x1F47D; &#x1F596; <br>
+        para declarar o emoji utilizamos, "&#x" seguido do codigo do emoji obtido no site e " ; " no final .
+        
 ## COMANDOS CSS
 
 Seletores demarcam as linhas a serem executadas.
 Aseguir exemplo de declaração, onde informamos a font, o tamanho da font e a cor: 
 
-* h1{
-    font-family: Arial; (declaração)
-    font-size: 20pt;
-    color: blue;
+* h1{ <br>
+    font-family: Arial; (declaração) <br>
+    font-size: 20pt; <br>
+    color: blue; <br>
 } 
 cada declaração é um conjuto de propriedade e valores
 - Propriedade: font-family, font-size, color 
