@@ -11,29 +11,28 @@ curso HTML5 &amp; CSS3 do canal Curso em Vídeo.
 <hr>
 
 ## ESTRUTURA BASICA HTML
-* primeira linha, informar: < !DOCTYPE html>
-* tag< html lang="pt-br"> informa que o site será em portugues < /html>
-* tag< head> < /head>  
-* tag< body> < /body>
-* tag< meta charset="UTF-8"> informa que o site e compativel com caracteres UTF-8
-* tag< meta name="viewport"
-        content="width=device-width, initial-scale=1.0"> 
-informa que o site sera reproduzido em scala de 100% da tela
-* tag< title> < /title> titulo da pagina
+* Informar: < !DOCTYPE html>
+* < html lang="pt-br"> informa que o site será em portugues < /html>
+* < head> < /head>  
+* < body> < /body>
+* < meta charset="UTF-8"> informa que o site e compativel com caracteres UTF-8
+* < meta name="viewport" <br>
+ content="width=device-width, initial-scale=1.0"> (informa que o site sera reproduzido em scala de 100% da tela) <br>
+* < title> < /title> titulo da pagina
 <hr>
 
 # Exemplo da estrutura basica:
 < !DOCTYPE hmtl> <br> 
 < html lang="pt-br"> <br>
-..  < head> (essa é a area de configuracao) <br>
-..  < meta charset="UTF-8"> <br>
-..  < meta name="viewport" <br>
-..   content="width=device-width, initial-scale=1.0"> <br>
-..  < title> titulo da pagina < /title > <br>
-..  < /head> <br>
-..  < body> (aqui fica o corpo do site) <br>
-..  < h1>Olá, Mundo! < /h1> <br>
-..  < /body> <br>
+....  < head> (essa é a area de configuracao) <br>
+....  < meta charset="UTF-8"> <br>
+....  < meta name="viewport" <br>
+content="width=device-width, initial-scale=1.0"> <br>
+....  < title> titulo da pagina < /title > <br>
+....  < /head> <br>
+....  < body> (aqui fica o corpo do site) <br>
+....  < h1>Olá, Mundo! < /h1> <br>
+....  < /body> <br>
   < /html>
 <hr>
 
