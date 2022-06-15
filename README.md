@@ -33,6 +33,7 @@ informa que o site sera reproduzido em scala de 100% da tela
 ## COMANDOS HTML
 Aberturas de tag ( demonstrada em " < > " ) na maioria das vez a tag deve ser fechada ( < / >)
 
+*< hr> para criar um linha horizontal, essa tag não necessita fechamento.
 * Exemplos de titulos: < h1 > exemplo de título < /h1 > 
 * Exemplo de paragrafo: < p > exemplo de paragrafo < /p >
 * Exemplo de imagem: < img src="foto.png" alt="exemplo de foto" >
