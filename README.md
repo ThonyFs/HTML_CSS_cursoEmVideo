@@ -19,12 +19,9 @@ informa que o site sera reproduzido em scala de 100% da tela
 *        < meta charset="UTF-8">
 *        < meta name="viewport"
 *        content="width=device-width, initial-scale=1.0">
-*        < title>
-*            titulo da pagina
-*        < /title>
+*        < title> titulo da pagina < /title>
 *    < /head>
-*    < body>
-*    (aqui fica o corpo do site)
+*    < body> (aqui fica o corpo do site)
 *        < h1>Olá, Mundo! < /h1>
 *    < /body>
 * < /html>
