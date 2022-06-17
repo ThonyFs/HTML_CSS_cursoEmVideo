@@ -60,6 +60,13 @@ Utilize os link informado se precisar gerar ou criar um icon <br>
 na área < head> digite __LINK__ e escolha "link:favicon", no atributo "href" inclua o nome do arquivo .icon .
 <hr>
 
+## Tags HTML
+
+* < strong> - Negrito
+* < em> - Italico
+
+<hr>
+
 ## COMANDOS CSS
 
 Seletores demarcam as linhas a serem executadas.
