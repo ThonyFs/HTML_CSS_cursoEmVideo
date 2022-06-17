@@ -14,11 +14,12 @@ curso HTML5 &amp; CSS3 do canal Curso em Vídeo.
 * Informar: < !DOCTYPE html>
 * < html lang="pt-br"> informa que o site será em portugues < /html>
 * < head> < /head>  
-* < body> < /body>
 * < meta charset="UTF-8"> informa que o site e compativel com caracteres UTF-8
 * < meta name="viewport" <br>
  content="width=device-width, initial-scale=1.0"> (informa que o site sera reproduzido em scala de 100% da tela) <br>
 * < title> < /title> titulo da pagina
+* < body> < /body>
+
 <hr>
 
 # Exemplo da estrutura basica:
