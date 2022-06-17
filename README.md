@@ -64,6 +64,13 @@ na área < head> digite __LINK__ e escolha "link:favicon", no atributo "href" in
 
 * < strong> - Negrito
 * < em> - Italico
+* < big> - grande
+* < small> - pequeno
+* < mark> - marca texto
+* < del> - texto riscado
+* < ins> - sublinhado
+* < sup> - sobrescrito
+* < sub> - subscrito
 
 <hr>
 
