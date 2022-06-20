@@ -72,6 +72,7 @@ na área < head> digite __LINK__ e escolha "link:favicon", no atributo "href" in
 * < sup> - sobrescrito
 * < sub> - subscrito
 * < address> - informar endereço
+* < code> - codigo fonte
 
 <hr>
 
