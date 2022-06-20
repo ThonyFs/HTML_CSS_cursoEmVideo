@@ -21,7 +21,7 @@
     <hr>
     <h2><em>Italico: &lt;em&gt;</em></h2>
     <p>Nessa frase, temos um <i>termo em Italico</i> destaque usando a tag I (não semantica)</p>
-    <p>Nessa franse, temos um temos um <em>termo em destaque</em> usando a tag EM(semântico)</p>
+    <p class="destaque">Nessa franse, temos um temos um <em>termo em destaque</em> usando a tag EM(semântico)</p>
     <hr>
     <h2>Texto marcado: &lt;mark&gt;  </h2>
     <h3>Usando style: &lt;mark style="background-color: *valor da cor* ;"&gt; </h3>
@@ -43,5 +43,26 @@
     <h2>Texto subscrito: &lt;sub&gt;</h2>
     <p>Para inserir coisas do tipo H<sub>2</sub>0</p>
     <hr>
+    <h1>Exemplo de codigo : &lt;code&gt;</h1>
+    <p><pre><code>num = int(input("Digite um valor: ")) <br>
+    if num % 2 == 0: <br>
+        print(f"O numero {num} é par!) <br>
+    else: <br>
+     print(f"O numero {num} é impar!) <br>
+print("Fim do programa")
+</code></pre> </p>
+<hr>
+<h2>Citações: &lt;q&gt;</h2>
+<p>Uma citação aparece assim: <br> <q>Aqui temos uma citação com a tag q, podemos ver que ela não tem deslocamento</q>
+</p>
+<h2>citações em bloco: &lt;blockquote&gt;</h2>
+<p><blockquote>Aqui temos uma citação com a tag blockquote. </blockquote> <br> <strong> Podemos usar também adição de link: utilizando &lt;blockquote cite=""&gt;</strong> <br> <blockquote cite="https://www.techtudo.com.br/dicas-e-tutoriais/2020/03/como-formatar-um-notebook-da-dell.ghtml"> Formatar um notebook ou computador da Dell é uma tarefa simples. A ferramenta Dell OS Recovery Tool permite ao usuário criar pen drives de recuperação do sistema com a imagem padrão do software da marca. A prática facilita o resgate de computadores com problemas no Windows e pode até mesmo funcionar em PCs de outras marcas para criar discos de recuperação para modelos da Dell, como os Inspiron 15, XPS 13, G3, G5 ou G7 que não estejam inicializando </blockquote> </p>
+<hr>
+<h2>Abreviações: &lt;abbr title="..."&gt; &lt; /abbr&gt;</h2>
+<p>Eu estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> para criar sites</p>
+<hr>
+<h2>Texto invertido: &lt;bdo dir=".."&gt;</h2>
+<p>ltr = da esquerda para a direita(left-to-right) <br>rtl = da direita para a esquerda(rigth-to-left) </p>
+<p><big><bdo dir="rtl">Este texto esta todo invertido no formato right-to-left</bdo> <br><bdo dir="ltr">Este texto esta todo invertido no formato right-to-left</bdo></big></p>
 </body>
 </html>
