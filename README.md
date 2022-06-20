@@ -1,7 +1,7 @@
 # HTML_CSS_cursoEmVideo
 curso HTML5 &amp; CSS3 do canal Curso em Vídeo.   
 
-* https://www.w3schools.com/charsets/ref_utf_symbols.asp (link para pag de simplos) 
+* https://www.w3schools.com/charsets/ref_utf_symbols.asp (link para pag de simbolos) 
 * https://emojipedia.org/ (link para pag de emoji)
 * https://unsplash.com/ ( biblioteca de imagens com licenças)
 * www.pexels.com (biblioteca de imagens com licenças)
