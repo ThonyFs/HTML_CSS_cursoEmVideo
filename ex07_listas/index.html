@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="alien-icone.ico" type="image/x-icon">
+    <title>Listas ordenadas</title>
+</head>
+<body>
+    <h1><strong>Listas Ordenadas: &lt;ol&gt; / &lt;li&gt;</strong></h1>
+    <p>Criando listas com ol: <br> <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+    </ol></p>
+    <p>A tag ol possui um parametro <em>type</em> <br>onde se pode informar: <br>
+    1- (valor padrao) <br>
+    A- (lista alfabética Maiuscula)<br>  a- (lista alfabetica minuscula)<br>
+    i- (lista romanos minisculo)<br>
+    I- (lista romanos Maiuscula)  </p>
+    <h2>Exemplos</h2>
+    <h3>type = "I"</h3>
+    <ol type="I">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol>
+    <hr>
+    <h3>type = "A"</h3>
+    <ol type="A">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol>
+    <hr>
+    <h3>tyoe = "a"</h3>
+    <ol type="a">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol>
+    <hr>
+    <h2>Listas não Ordenadas: &lt;ul&gt; &lt;li&gt;</h2>
+    <p>Para criar uma unordered list, vamos usar a tag ul para delimitar a lista e a tag li para criar cada um dos itens internos.<br>Podemos alterar o parametro type com os valores: <br>disc - padrão, bola preta preenchida <br>circle - bola com borda preta e sem preenchimento <br>square - quadrado preto preenchido
+        <ul type="disc">
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul> 
+        <hr> 
+        <ul type="circle">
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+        <hr>
+        <ul type="square">
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+    </p>
+    <h2>Misturando as coisas</h2>
+    <p>
+        <ol>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <ol type="a">
+                <li>item 3.1</li>
+                <li>item 3.2</li>
+                <li>item 3.3</li>
+            </ol>
+            <li>item 4</li>
+            <li>item 5</li>
+            <li>item 6</li>
+        </ol>
+    </p>
+    <hr>
+    <h1><strong> Desafio: Listas</strong></h1>
+    <p><strong>
+       <ul>
+        <li>Nintendinho</li>
+            <ol>
+                <li>Mario Bros</li>
+                    <ul type="square">
+                        <li>Super Mario Bros 3</li>
+                        <li>Mario: Lost Levels</li>
+                    </ul>
+                <li>Ninja Gaiden</li>
+                    <ul type="square">
+                        <li>Ninja Gaiden III</li>
+                    </ul>
+            </ol>
+        <li>Super Nintendo</li>
+            <ol>
+                <li>Super Mario World</li>
+                <li>Donkey Kong</li>
+                    <ul type="square">
+                        <li>Donkey Kong Counrty III</li>
+                        <li>Diddy's Kong Quest</li>
+                    </ul>
+            </ol>
+        <li>Playstation 1</li>
+            <ol>
+                <li>Final Fantasy</li>
+                    <ul type="square">
+                        <li>Final   Fantasy VII</li>
+                        <li>Final Fantasy IX</li>
+                    </ul>
+                <li>Castlevania</li>
+                    <ul type="square">
+                        <li>Simphony of the Night</li>
+                    </ul>
+            </ol>
+        </ul>
+    </strong></p>
+    <hr>
+    <h2>Lista de Definições: &lt;dl&gt; / &lt;dt&gt; / &lt;dd&gt;</h2>
+    <p><strong>Exemplo de lista de definição</strong> <br>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação utilizada para criar o conteúdo do site</dd>
+        <dt>CSS</dt>
+        <dd>Liguagem de marcação para a especificação de estilo do conteúdo</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para criar interatividade no conteúdo do site</dd>
+    </dl></p>
+</body>
+</html>
