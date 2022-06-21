@@ -83,6 +83,7 @@ na área < head> digite __LINK__ e escolha "link:favicon", no atributo "href" in
 * < dl> - listas de definição, dentro da tag acompanha: < dl> < dt> .. < /dt> < dd> .. < /dd>
 * < dt> - definição de termo
 * < dd> - definição de descrição
+* < a href="link" target="_blank" rel="external"> - adicionar link que abre em nova aba do navegador
 
 <hr>
 
