@@ -83,7 +83,8 @@ na área < head> digite __LINK__ e escolha "link:favicon", no atributo "href" in
 * < dl> - listas de definição, dentro da tag acompanha: < dl> < dt> .. < /dt> < dd> .. < /dd>
 * < dt> - definição de termo
 * < dd> - definição de descrição
-* < a href="link" target="_blank" rel="external"> - adicionar link que abre em nova aba do navegador
+* < a href="link" target="_blank / _self" rel="external"> - adicionar link externo que abre em nova aba do navegador (_self para atuar na mesma pag)
+* < A href="link" target="_black / _self" rel="external / nofollow"> - link de pagina interna. para retornar, o caminho deve conter " ../arquivo" 
 
 <hr>
 
