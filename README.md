@@ -78,7 +78,8 @@ na área < head> digite __LINK__ e escolha "link:favicon", no atributo "href" in
 * < blockquote cite=" "> citações de links
 * < abbr title = "..."> < /abbr> - abreviação
 * < bdo dir=".."> < /dbo> ( ltr/rtl) - inverter texto
-* 
+* < ol> < li> < /li> < /ol> - lista ordenadas ( <ol type = ".. "1, A, a, I, i>)
+* < ul> < li> < /li> < /ul> - listas não ordenadas( type =".." disc, circle, square)
 
 <hr>
 
