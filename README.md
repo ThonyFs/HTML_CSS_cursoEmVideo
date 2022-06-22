@@ -86,6 +86,7 @@ na área < head> digite __LINK__ e escolha "link:favicon", no atributo "href" in
 * < dd> - definição de descrição
 * < a href="link" target="_blank / _self" rel="external"> - adicionar link externo que abre em nova aba do navegador (_self para atuar na mesma pag)
 * < A href="link" target="_black / _self" rel="external / nofollow"> - link de pagina interna. para retornar, o caminho deve conter " ../arquivo" 
+* < a href="livro/livro_pdf.pdf" target="_blank" download="livro_pdf" type="application/pdf"> - utilizado para download(type, verificar no link informado)
 
 <hr>
 
