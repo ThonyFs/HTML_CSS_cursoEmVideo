@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icones_fotos/alien-icone.ico" type="image/x-icon">
+    <title>exercitando</title>
+</head>
+<body>
+    <h1>Foto dinamica <img src="../foto_perfil_editado.png" alt="foto perfil"></h1>
+
+    <p>
+    Aqui teremos uma foto que se ajusta com o tamanho da tela! 
+    </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="../icones_fotos/Paisagem_p.png" type="image/png">
+
+        <source media="(max-width: 1050px)" srcset="../icones_fotos/Paisagem_m.png" type="image/png">
+
+        <img src="../icones_fotos/Paisagem_g.png" alt="foto g">
+    </picture>
+
+    <h2><a href="index.html" target="_self" rel="prev">Retornar</a></h2>
+</body>
+</html>
