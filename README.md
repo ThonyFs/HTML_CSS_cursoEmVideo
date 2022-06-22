@@ -8,6 +8,7 @@ curso HTML5 &amp; CSS3 do canal Curso em Vídeo.
 * https://iconarchive.com/ (biblioteca de icones)
 * https://www.favicon.cc/ (pag para criar icones)
 * https://favicon.io/ (pag para gerar icone)
+* https://www.iana.org/assignments/media-types/media-types.xhtml (lista de todos os medias type)
 <hr>
 
 ## ESTRUTURA BASICA HTML
