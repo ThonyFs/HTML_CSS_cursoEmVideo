@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icones_fotos/alien-icone.ico" type="image/x-icon">
+    <title>imagens dinamicas</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas: &lt;picture&gt;</h1>
+    <p><pre>
+            <code>
+ <STRONG>
+     &lt;picture&gt;
+        &lt;source media="(max-width:750px)" srcset="../icones_fotos/imagem_p.png" type="image/png"&gt;
+ </STRONG>
+        </code> 
+    </pre>
+
+    </p>
+    <p>
+    tente abrir esse site em varios dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.
+    </p>
+    <picture>
+        <source media="(max-width:750px)" srcset="../icones_fotos/imagem_p.png" type="image/png">
+        
+        <source media="(max-width:1050px )" srcset="../icones_fotos/imagem_m.png" type="image/png">
+       
+        <img src="../icones_fotos/imagem_g.png" alt="foto flexivel">
+    </picture>
+
+    <h2><a href="exercitando.html" target="_self" rel="next">Link para pag de treino</a></h2>
+    
+</body>
+</html>
