@@ -9,6 +9,7 @@ curso HTML5 &amp; CSS3 do canal Curso em Vídeo.
 * https://www.favicon.cc/ (pag para criar icones)
 * https://favicon.io/ (pag para gerar icone)
 * https://www.iana.org/assignments/media-types/media-types.xhtml (lista de todos os medias type)
+* https://handbrake.fr/ (ferramenta para converter videos)
 <hr>
 
 ## ESTRUTURA BASICA HTML
@@ -88,6 +89,13 @@ na área < head> digite __LINK__ e escolha "link:favicon", no atributo "href" in
 * < A href="link" target="_black / _self" rel="external / nofollow"> - link de pagina interna. para retornar, o caminho deve conter " ../arquivo" 
 * < a href="livro/livro_pdf.pdf" target="_blank" download="livro_pdf" type="application/pdf"> - utilizado para download(type, verificar no link informado)
 * < picture> source:media:type (source media="(max-width:1000px)" srcset="arquivo" type="image/png"(extensao da foto) -adicionar o source do tamanho menor pro maior, media="(MAX-width:1000)
+* < audio src="arquivo.mp3" controls autoplay> - utilizado para colocar audio <br>
+para informar alternativas caso o navegado não aceite mp3: <br>
+ < audio controls autoplay loop> <br>
+  < source src="../midia/go.mp3" type="audio/mpeg"> (se não funcionar esse, tenta o proximo) <br>
+  < source src="../midia/go.ogg" type="audio/ogg"> <br>
+  < source src="../midia/go.wav" type="audio/wav"> <br>
+ < /audio>
 
 <hr>
 
