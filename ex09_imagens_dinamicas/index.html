@@ -31,6 +31,22 @@
     </picture>
 
     <h2><a href="exercitando.html" target="_self" rel="next">Link para pag de treino</a></h2>
-    
+    <hr>
+    <h1>Reproduzindo audio: &lt;audio&gt;</h1>
+    <p>
+        Vamos aprender a reproduzir <strong>áudios em HTML5</strong>
+    </p>
+    <audio src="../midia/go.mp3" controls autoplay></audio>
+    <hr>
+    <h2>forma alternativa para adaptar em diversos navegadores</h2>
+    <audio controls autoplay loop>
+        <!--Dessa forma o navegador vai ter opções alternativas para reproduzir o audio, caso o primeiro não funcione ele passa para o proximo. -->
+        <source src="../midia/go.mp3" type="audio/mpeg">
+        <source src="../midia/go.ogg" type="audio/ogg">
+        <source src="../midia/go.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="../midia/go.mp3" target="_self" download="../midia/go.mp3" >Click aqui para baixar o arquivo em MP3</a></p>
+    </audio>
+   <h2>Colocando Video</h2>
+   
 </body>
 </html>
