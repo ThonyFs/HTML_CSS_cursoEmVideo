@@ -104,14 +104,60 @@ para informar alternativas caso o navegado não aceite mp3: <br>
 
 ## COMANDOS CSS
 
-Seletores demarcam as linhas a serem executadas.
-Aseguir exemplo de declaração, onde informamos a font, o tamanho da font e a cor: 
+### INTERNO 
 
-* h1{ <br>
-    font-family: Arial; (declaração) <br>
-    font-size: 20pt; <br>
-    color: blue; <br>
-} 
-cada declaração é um conjuto de propriedade e valores <br>
+Seletores demarcam as linhas a serem executadas, dentro do HEAD: 
+Aseguir exemplo de declaração, onde informamos a font, o tamanho da font e a cor.  <br>
+cada declaração é um conjuto de propriedade e valores: <br>
 - Propriedade: font-family, font-size, color <br>
-- valores: Arial, 20pt, blue
+- valores: Arial, 20px, blue <br>
+<hr> 
+< head> <br>
+... <br>
+ < style> <br>
+        body{ <br>
+            background-color: yellowgreen; <br>
+            font-family: Arial, Helvetica, sans-serif; <br> 
+            font-size: 20px; <br>
+            } <br>
+        h1{ <br>
+            color: blueviolet; <br>
+            background-color: chocolate; <br>
+        } <br>
+        h2{ <br>
+            color: brown; <br>
+        } <br>
+        p{ <br> 
+            text-align: justify; <br>
+        } <br>
+    < /style> <br>
+ < /head> <br>
+} <br>
+<hr>
+
+### EXTERNO
+
+Cria-se um arquivo .CSS com todas as definições de  Style, nos arquivos HTML faz uma ponte referenciando no LINK:CSS 
+com o nome do arquivo css. EXEMPLO: <br>
+<hr>
+nome do arquivo: style.css<br>
+
+@charset "UTF-8"; <br>
+ <br>
+body{ <br> 
+    background-color: yellowgreen; <br>
+    font-family: Arial, Helvetica, sans-serif; <br>
+    font-size: 20px; <br>
+    } <br>
+h1{ <br>
+    color: blueviolet; <br>
+    background-color: chocolate; <br>
+} <br>
+h2{ <br>
+    color: brown; <br>
+} <br>
+p{ <br>
+    text-align: justify; <br>
+} <br>
+
+
