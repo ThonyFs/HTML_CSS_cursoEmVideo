@@ -12,7 +12,7 @@ curso HTML5 &amp; CSS3 do canal Curso em Vídeo.
 * https://handbrake.fr/ (ferramenta para converter videos)
 * https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/13%20-%20Cores.pdf (pdf referente a cores)
 * https://color.adobe.com/pt/create/color-wheel (gerenciar paleta de cores)
-* http://www.paletton.com/ (sgerenciador de paleta de cores com simulador de pag web)
+* http://www.paletton.com/ (gerenciador de paleta de cores com simulador de pag web)
 <hr>
 
 ## ESTRUTURA BASICA HTML
