@@ -13,6 +13,7 @@ curso HTML5 &amp; CSS3 do canal Curso em Vídeo.
 * https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/13%20-%20Cores.pdf (pdf referente a cores)
 * https://color.adobe.com/pt/create/color-wheel (gerenciar paleta de cores)
 * http://www.paletton.com/ (gerenciador de paleta de cores com simulador de pag web)
+* chrome web store > colorzilla (plugin para coletar cores de paginas web)
 <hr>
 
 ## ESTRUTURA BASICA HTML
