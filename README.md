@@ -11,6 +11,8 @@ curso HTML5 &amp; CSS3 do canal Curso em Vídeo.
 * https://www.iana.org/assignments/media-types/media-types.xhtml (lista de todos os medias type)
 * https://handbrake.fr/ (ferramenta para converter videos)
 * https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/13%20-%20Cores.pdf (pdf referente a cores)
+* https://color.adobe.com/pt/create/color-wheel (gerenciar paleta de cores)
+* http://www.paletton.com/ (sgerenciador de paleta de cores com simulador de pag web)
 <hr>
 
 ## ESTRUTURA BASICA HTML
