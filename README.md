@@ -10,6 +10,7 @@ curso HTML5 &amp; CSS3 do canal Curso em Vídeo.
 * https://favicon.io/ (pag para gerar icone)
 * https://www.iana.org/assignments/media-types/media-types.xhtml (lista de todos os medias type)
 * https://handbrake.fr/ (ferramenta para converter videos)
+* https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/13%20-%20Cores.pdf (pdf referente a cores)
 <hr>
 
 ## ESTRUTURA BASICA HTML
