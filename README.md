@@ -107,7 +107,7 @@ para informar alternativas caso o navegado não aceite mp3: <br>
 <hr>
 
 ## COMANDOS CSS
-font-size: 20px; (tamanho da fonte) <br>
+font-size: 20px; (tamanho da fonte, UTILIZAR " em " ou " px " , "1em" = "16px") <br>
 background-image: radial-gradient(circle,  #0400F2, #000000); (colorir fundo com diversas cores no formato de circulo) <br>
 background-color: rgb(248, 185, 114); (colorir fundo) <br>
 border-radius: 20px; (bordas arredondadas) <br>
