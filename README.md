@@ -107,6 +107,22 @@ para informar alternativas caso o navegado não aceite mp3: <br>
 <hr>
 
 ## COMANDOS CSS
+font-size: 20px; (tamanho da fonte) <br>
+background-image: radial-gradient(circle,  #0400F2, #000000); (colorir fundo com diversas cores no formato de circulo) <br>
+background-color: rgb(248, 185, 114); (colorir fundo) <br>
+border-radius: 20px; (bordas arredondadas) <br>
+box-shadow: 5px 5px 15px #eb8b0db7; (sombras da caixa) <br>
+width: 700px; (tamanho da caixa) <br>
+padding: 10px;  (distancia da caixa do texto) <br>
+margin: auto; (centraliza a caixa e ajuste automatico) <br>
+text-align: justify; (alinhamento do texto) <br>
+text-shadow:2px 2px 6px #eb8b0db7 ; ( sombra do texto) <br>
+font-family: Arial, Helvetica, sans-serif; (fonte dos textos) <br>
+color: blue (cor letra) <br>
+
+
+
+<hr>
 
 ### INTERNO 
 
