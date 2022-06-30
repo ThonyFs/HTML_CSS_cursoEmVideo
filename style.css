@@ -20,7 +20,9 @@ main{
     margin: auto
 }
 h1{
+    color: rgba(27, 31, 58, 1);
     text-align: center;
+    text-shadow: 1px 1px 3px #0880e2;
     background-image: radial-gradient(circle,  #fd771e, #cec8c8);
     border-radius: 30px;
     width:1200px ;
