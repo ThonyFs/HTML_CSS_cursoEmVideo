@@ -1,5 +1,27 @@
 @charset "UTF-8";
 *{
-    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top, rgba(242, 185, 80, 1),  rgba(0, 143, 159, 1), rgba(27, 31, 58, 1));
+}
+main{
+    background-color: rgba(255, 255, 255, 0.555);
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgb(169, 82, 250);
+    text-align: center;
+    width: 500px;
+    padding: 10px;
+    margin: auto
+}
+h1{
+    text-align: center;
+    background-image: radial-gradient(circle,  #fd771e, #cec8c8);
+    border-radius: 30px;
+    width:1200px ;
+    padding: 10px;
+    margin: auto;
 }
