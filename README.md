@@ -14,6 +14,9 @@ curso HTML5 &amp; CSS3 do canal Curso em Vídeo.
 * https://color.adobe.com/pt/create/color-wheel (gerenciar paleta de cores)
 * http://www.paletton.com/ (gerenciador de paleta de cores com simulador de pag web)
 * chrome web store > colorzilla (plugin para coletar cores de paginas web)
+* chrome web store > Fonts Ninja (plugin capturar fonts de site)
+* https://fonts.google.com/ (site de fontes externas)
+* https://www.dafont.com/pt (download de fonts)
 <hr>
 
 ## ESTRUTURA BASICA HTML
@@ -107,19 +110,40 @@ para informar alternativas caso o navegado não aceite mp3: <br>
 <hr>
 
 ## COMANDOS CSS
-font-size: 20px; (tamanho da fonte, UTILIZAR " em " ou " px " , "1em" = "16px") <br>
-background-image: radial-gradient(circle,  #0400F2, #000000); (colorir fundo com diversas cores no formato de circulo) <br>
-background-color: rgb(248, 185, 114); (colorir fundo) <br>
-border-radius: 20px; (bordas arredondadas) <br>
-box-shadow: 5px 5px 15px #eb8b0db7; (sombras da caixa) <br>
-width: 700px; (tamanho da caixa) <br>
-padding: 10px;  (distancia da caixa do texto) <br>
-margin: auto; (centraliza a caixa e ajuste automatico) <br>
-text-align: justify; (alinhamento do texto) <br>
-text-shadow:2px 2px 6px #eb8b0db7 ; ( sombra do texto) <br>
-font-family: Arial, Helvetica, sans-serif; (fonte dos textos) <br>
-color: blue (cor letra) <br>
-
+  
+* background-image: radial-gradient(circle,  #0400F2, #000000); (colorir fundo com diversas cores no formato de circulo) <br>
+* background-color: rgb(248, 185, 114); (colorir fundo) <br>
+* border-radius: 20px; (bordas arredondadas) <br>
+* box-shadow: 5px 5px 15px #eb8b0db7; (sombras da caixa) <br>
+* width: 700px; (tamanho da caixa) <br>
+* padding: 10px;  (distancia da caixa do texto) <br>
+* margin: auto; (centraliza a caixa e ajuste automatico) <br>
+* text-align: justify; (alinhamento do texto) <br>
+* text-decoration: underline; ( texto sublinhado) <br>
+* text-shadow:2px 2px 6px #eb8b0db7 ; ( sombra do texto) <br>
+* font-style: ; ( estilo de fonte, italico) <br>
+* font-weight: ; (peso da fonte, negrito) <br>
+* font-size: 20px; (tamanho da fonte, UTILIZAR " em " ou " px " , "1em" = "16px") <br>
+* font-family: Arial, Helvetica, sans-serif; (fonte dos textos) <br>
+* color: blue (cor letra) <br>
+  
+* shorthand: oredem: font-style-> font-wight-> font-size-> font-family ( essa ordem deve ser adicionada no FONT) <br>
+  EX: font: italic bolder 3em 'work sans', sans-serif ; <br>
+  
+* Download de font: <br>
+ Após download, salve a font no servidos e declare ela da seguinte forma: (URL deve ser no nome do arquivo, identico) <br>
+   @font-face { <br>
+            font-family:'Centurion' ; <br>
+            src: url('The Centurion.otf') format('opentype'), url('The Centurion .ttf') format('truetype'); <br>
+            font-weight: normal; <br>
+            font-style: normal; <br>
+        } <br>
+* tipos de format: <br>
+-opentype (otf) <br>
+-truetype (otf) <br>
+-embedded-opentype <br>
+-truetype-aat (apple advanced typography) <br> 
+-svg <br>
 
 
 <hr>
