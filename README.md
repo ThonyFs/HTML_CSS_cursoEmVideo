@@ -16,6 +16,7 @@ curso HTML5 &amp; CSS3 do canal Curso em Vídeo.
 * chrome web store > colorzilla (plugin para coletar cores de paginas web)
 * chrome web store > Fonts Ninja (plugin capturar fonts de site)
 * https://fonts.google.com/ (site de fontes externas)
+* https://www.whatfontis.com/ (captura font de fotos)
 * https://www.dafont.com/pt (download de fonts)
 <hr>
 
