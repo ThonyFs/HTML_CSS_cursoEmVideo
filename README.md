@@ -126,6 +126,7 @@ para informar alternativas caso o navegado não aceite mp3: <br>
 * font-weight: ; (peso da fonte, negrito) <br>
 * font-size: 20px; (tamanho da fonte, UTILIZAR " em " ou " px " , "1em" = "16px") <br>
 * font-family: Arial, Helvetica, sans-serif; (fonte dos textos) <br>
+* text-indent: 30px; (espaço do paragrafo) <br>
 * color: blue (cor letra) <br>
   
 * shorthand: oredem: font-style-> font-wight-> font-size-> font-family ( essa ordem deve ser adicionada no FONT) <br>
