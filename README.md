@@ -104,7 +104,7 @@ para informar alternativas caso o navegado não aceite mp3: <br>
   < source src="../midia/go.ogg" type="audio/ogg"> <br>
   < source src="../midia/go.wav" type="audio/wav"> <br>
  < /audio>
-* < video width="400" poster="arquivo" controls autoplay loop> - adicionar videos <br>
+* < video width="400" poster="arquivo(foto para ilustrar antes do plau" controls autoplay loop> - adicionar videos, aparece foto antes do play <br>
  < source src="arquivo.mp4/m4v/ogg" type="video/mp4/ogg/webm"> (um para cada video) <br>
  < /video>
 
