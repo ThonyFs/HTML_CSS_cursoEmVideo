@@ -8,7 +8,7 @@
     <title>Pseudo classes</title>
     <style>
         div{
-            display: inline-block;
+            display: inline-table;
             background-color: cadetblue;
             border: 1px solid black;
             text-align: center;
@@ -16,14 +16,37 @@
             width: 200px;
         }
         /*pseudo classe hover: quando passar o mouse por cima*/
-       div:hover{
+      
+       #d1:hover{
+        background-color: blue;
+       }
+       #d1 > p > #p1{
+        display: none;
+       }
+       #d1:hover > p > #p1{
+        display: block;
+        color: rgb(12, 12, 12);
+       }
+        #d2:hover{
         background-color: chartreuse;
        }
+       #d3:hover{
+        background-color: blueviolet;
+       }
+       #d1:hover > p{
+        color: brown;
+        background-color: blanchedalmond;
+
+       }
+      
+     
 
     </style>
 </head>
 <body>
-    <div id="d1">01</div>
+    <div id="d1">01
+        <p>teste <br> <span id="p1">aparece agora</span></p>
+    </div>
     <div id="d2">02</div>
     <div id="d3">03</div>
 </body>
