@@ -5,19 +5,46 @@
 */
 
 body{
-    background-color: rgb(191, 241, 158);
+    background-color: rgb(214, 247, 193);
     font-family: Arial, Helvetica, sans-serif;
-
 }
 h1{
     color:rgb(26, 61, 2);
 }
-h1#principal{
+h2{
+    color: rgb(73, 170, 8) ;
+}
+#principal{
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color:rgb(26, 61, 2) ;
     color: rgb(189, 240, 155) ;
 }
-h2{
-    color: rgb(73, 170, 8) ;
+.basico{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: blueviolet;
+    font-weight: bold;
+}
+.intermediario{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    font-weight: bold;
+}
+.avancado{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    font-weight: bold;
+    width: 500px;
+    margin: auto;
+    border-radius: 20px;
+}
+.destaque{
+    background-color: rgba(251, 255, 0, 0.418);
+}
+p{
+    font-size: 18px;
+    text-align: justify;
 }
