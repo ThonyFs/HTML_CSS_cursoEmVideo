@@ -112,11 +112,38 @@ para informar alternativas caso o navegado não aceite mp3: <br>
 
 ## COMANDOS CSS
   
-* background-image: radial-gradient(circle,  #0400F2, #000000); (colorir fundo com diversas cores no formato de circulo) <br>
+ *ID personalizado: <br>
+  (id: HTML e CSS é : # ) (classe: HTML: class / CSS: . ) <br>
+ identifica o seletor com: id="principal(pode utilizar outro nome)" e no style utiliza o seletor personalizado. <br>
+ É possivel colocar mais de uma classe no mesmo seletor, apenas separar com "espaço" o mesmo para ID, ex: id="principal" class="destaque" <br>
+ 
+  <hr>
+  
+ *Pseudo-classes identifica um estado especial de um elemento. <br>
+ :hover, :visited, :active, :checked, :empty e :focus <br>
+ *Pseudo-elemento permite que formate um pedaço especifico do elemento referenciado. <br>
+ ::before, ::after, ::first-letter, ::first-line.
+  
+  <hr>
+  
+  *Trabalhando com DIV: <br>
+  É possivel trabalhar manipular DIV com pseudo-classes e pseudo-elementos. dentro da DIV você pode colocar seletores como " < h1> ou < p> <br>
+  utilizando pseudo-classe: 
+  div:hover{ color: black; } (ao passar o mouse em cima ela tera uma ação) <br>
+  div:hover > h1 ou p{ display: block; color: blue;  } <br>
+  <br>
+  Assim manipulamos o que há dentro da div.
+  <hr>
+ 
+* display: none( para não aparecer na tela) ; block (para aparecer na tela)
+* background-image: radial-gradient(circle,  #0400F2 70%, #000000); (colorir fundo com diversas cores no formato de circulo) <br>
 * background-color: rgb(248, 185, 114); (colorir fundo) <br>
 * border-radius: 20px; (bordas arredondadas) <br>
 * box-shadow: 5px 5px 15px #eb8b0db7; (sombras da caixa) <br>
-* width: 700px; (tamanho da caixa) <br>
+* border: 1px solid black; (SHORTDAND: criando bordas) <br>
+* display: inline-block; (alinhando blocos) <br>
+* heigth: 200px; (altura) <br>
+* width: 700px; (tamanho da caixa; largura) <br>
 * padding: 10px;  (distancia da caixa do texto) <br>
 * margin: auto; (centraliza a caixa e ajuste automatico) <br>
 * text-align: justify; (alinhamento do texto) <br>
@@ -128,6 +155,8 @@ para informar alternativas caso o navegado não aceite mp3: <br>
 * font-family: Arial, Helvetica, sans-serif; (fonte dos textos) <br>
 * text-indent: 30px; (espaço do paragrafo) <br>
 * color: blue (cor letra) <br>
+  
+
   
 * shorthand: oredem: font-style-> font-wight-> font-size-> font-family ( essa ordem deve ser adicionada no FONT) <br>
   EX: font: italic bolder 3em 'work sans', sans-serif ; <br>
@@ -149,6 +178,8 @@ para informar alternativas caso o navegado não aceite mp3: <br>
 
 
 <hr>
+  
+
 
 ### INTERNO 
 
