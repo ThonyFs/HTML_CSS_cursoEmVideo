@@ -1,7 +1,8 @@
 # HTML_CSS_cursoEmVideo
 curso HTML5 &amp; CSS3 do canal Curso em Vídeo.   
 
-* https://www.w3schools.com/charsets/ref_utf_symbols.asp (link para pag de simbolos) 
+* https://www.w3schools.com/charsets/ref_utf_symbols.asp (link para pag de simbolos)
+* https://erikasarti.com/html/dingbats-simbolos-desenhos/ (simbolos) 
 * https://emojipedia.org/ (link para pag de emoji)
 * https://unsplash.com/ ( biblioteca de imagens com licenças)
 * www.pexels.com (biblioteca de imagens com licenças)
@@ -112,45 +113,80 @@ para informar alternativas caso o navegado não aceite mp3: <br>
 
 ## COMANDOS CSS
   
- *ID personalizado: <br>
+* ID personalizado: <br>
   (id: HTML e CSS é : # ) (classe: HTML: class / CSS: . ) <br>
+  (pseudo-class é: " : ") (pseudo-elemento é : " :: ") <br>
+  (childrem(filho) é : " > ") <br>
+  
  identifica o seletor com: id="principal(pode utilizar outro nome)" e no style utiliza o seletor personalizado. <br>
  É possivel colocar mais de uma classe no mesmo seletor, apenas separar com "espaço" o mesmo para ID, ex: id="principal" class="destaque" <br>
  
   <hr>
   
- *Pseudo-classes identifica um estado especial de um elemento. <br>
- :hover, :visited, :active, :checked, :empty e :focus <br>
- *Pseudo-elemento permite que formate um pedaço especifico do elemento referenciado. <br>
- ::before, ::after, ::first-letter, ::first-line.
+* Pseudo-classes identifica um estado especial de um elemento. <br>
+ :hover (quando passa mouse por cima), :visited (quando visita o link), :active (quando clica no elemento), :checked, :empty e :focus <br>
   
+ * Pseudo-elemento permite que formate um pedaço especifico do elemento referenciado. <br>
+ ::before (aparete algo antes), ::after (aparece alfo depois) , ::first-letter, ::first-line. <br>
+ - content: ' ' ; para escrever algo apos o elemento <br>
   <hr>
   
-  *Trabalhando com DIV: <br>
+* Trabalhando com DIV: <br>
   É possivel trabalhar manipular DIV com pseudo-classes e pseudo-elementos. dentro da DIV você pode colocar seletores como " < h1> ou < p> <br>
-  utilizando pseudo-classe: 
+  utilizando pseudo-classe: <br>
   div:hover{ color: black; } (ao passar o mouse em cima ela tera uma ação) <br>
   div:hover > h1 ou p{ display: block; color: blue;  } <br>
   <br>
-  Assim manipulamos o que há dentro da div.
+  Assim manipulamos o que há dentro da div. <br>
+  
   <hr>
+  
+* tipos de caixa : <br>
+  box-level: (sempre se inicia em linha nova e ocupa a largura inteira; ) EX: DIV; H1; P; MAIN; HEADER; NAV; ARTICLE; ASIDE; FOOTER; FORM; VIDEO <br>
+  inline-level: (sempre inicia na mesma linha e ocupa o tamanho do conteudo do elemento e não quebra linha; ) EX: SPAN; A; CODE; SMALL; STRONG; EM; SUP - SUB; LABEL; BUTTON; INPUT; SELECT;  <br>
+  MEDIDAS DAS CAIXAS: <br>
+border-width: 3px; <br>
+border-style: solid; <br>
+border-color: darkslategray; <br>
+  <br>
+padding-top: 10px; <br>
+padding-right: 4px; <br>
+padding-bottom: 4px; <br>
+padding-left: 10px; <br>
+  <br>
+margin-top: 10px; <br>
+margin-right: 10px; <br>
+margin-bottom: 40px; <br>
+margin-left: 10px; <br>
+  <br>
+outline-width: 5px (borda dentro da margin) <br>
+outline-style: dashed; <br>
+outline-color: black; <br>
+  <br>
+*  SIMPLIFICANDO: pode informar somente padding , margin, width e seus valores na orde sentido horario: top/ rigth/ bottom/ left <br>
+  Se informar apenas DOIS valores ele identifica que é : TOP e BOTTOM / RIGTH e LEFT <br>
+  na MARGIN por informar rigth e left com : AUTO para centralizar  <br>
+  <br>
+  - border-style: dotted (borta pontilhada) ; dashed (borda tracejada); solid (linha continua); groove ( margem 3d); <br>
+<hr>
  
 * display: none( para não aparecer na tela) ; block (para aparecer na tela)
 * background-image: radial-gradient(circle,  #0400F2 70%, #000000); (colorir fundo com diversas cores no formato de circulo) <br>
 * background-color: rgb(248, 185, 114); (colorir fundo) <br>
 * border-radius: 20px; (bordas arredondadas) <br>
 * box-shadow: 5px 5px 15px #eb8b0db7; (sombras da caixa) <br>
-* border: 1px solid black; (SHORTDAND: criando bordas) <br>
 * display: inline-block; (alinhando blocos) <br>
+* border: 1px solid black; (SHORTDAND: criando bordas) <br>
 * heigth: 200px; (altura) <br>
 * width: 700px; (tamanho da caixa; largura) <br>
-* padding: 10px;  (distancia da caixa do texto) <br>
-* margin: auto; (centraliza a caixa e ajuste automatico) <br>
+* padding: 10px;  (distancia da caixa do texto; preenchimento) <br>
+* margin: auto; (centraliza a caixa e ajuste automatico; da borda para fora; ) <br>
+* outline:  ; (traçado por fora da borda)
 * text-align: justify; (alinhamento do texto) <br>
 * text-decoration: underline; ( texto sublinhado) <br>
 * text-shadow:2px 2px 6px #eb8b0db7 ; ( sombra do texto) <br>
 * font-style: ; ( estilo de fonte, italico) <br>
-* font-weight: ; (peso da fonte, negrito) <br>
+* font-weight: ; (peso da fonte, negrito; normal; italico) <br>
 * font-size: 20px; (tamanho da fonte, UTILIZAR " em " ou " px " , "1em" = "16px") <br>
 * font-family: Arial, Helvetica, sans-serif; (fonte dos textos) <br>
 * text-indent: 30px; (espaço do paragrafo) <br>
