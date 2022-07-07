@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        div{
+            font-family: Arial, Helvetica, sans-serif;
+            width: 250px;
+            right: 600px;
+            border: 2px solid black;
+            
+        }
+        div > p{
+            display: none;
+        }
+        div > h2{
+            display: none;
+        }
+        div:hover > p{
+            text-align: center;
+            display: block;
+            color: wheat;
+            background-color: red;
+            width: 250px;
+            margin: auto;
+            
+            
+        }
+        div:hover > h2{
+            text-align: center;
+            display: block;
+            color: blue;
+            background-color: blueviolet;
+            width: 250px;
+            margin: auto;
+            
+        }
+        div:hover{
+            color: red;
+            width: 1000px;
+            right: 600px;
+            text-align: center;
+        }
+        h1:hover{
+            text-align: center;
+            color: coral;
+            font-weight: bold;
+        }
+        #p1:hover{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: coral;
+            text-align: center;
+            font-weight: bold;
+            font-size: 3em;
+        }
+        p > #s1{ display: none;
+
+        }
+        p:hover > #s1{
+            display: block;
+        }
+        a{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+        }
+        a:visited{
+            color: red;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 >Exemplo de HOVER</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        passe o mouse aqui!
+        <h2>TITULO ESCONDIDO</h2>
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <p id="p1">Fim do exemplo! <span id="s1">&#x1F47D;</span></p>
+     <a href="https://github.com/ThonyFs" target="_blank" rel="external">github.com/ThonyFs</a>
+    
+</body>
+</html>

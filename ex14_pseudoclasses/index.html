@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icones_fotos/alien-icone.ico" type="image/x-icon">
+    <title>Pseudo classes</title>
+    <style>
+        div{
+            display: inline-table;
+            background-color: cadetblue;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+        /*pseudo classe hover: quando passar o mouse por cima*/
+      
+       #d1:hover{
+        background-color: blue;
+        text-align: left;
+        color: red;
+       }
+       #d1 > p > #p1{
+        display: none;
+       }
+       #d1:hover > p > #p1{
+        display: block;
+        color: rgb(3, 112, 21);
+        font-weight: bold;
+       }
+        #d2:hover{
+        background-color: chartreuse;
+       }
+       #d3:hover{
+        background-color: blueviolet;
+       }
+       #d1:hover > p{
+        color: brown;
+        background-color: blanchedalmond;
+
+       }
+      
+     
+
+    </style>
+</head>
+<body>
+    <div id="d1">01
+        <p>teste <br> <span id="p1">aparece agora</span></p>
+    </div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+</body>
+</html>
