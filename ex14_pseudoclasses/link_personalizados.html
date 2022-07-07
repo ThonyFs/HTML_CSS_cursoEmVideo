@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>link personalizados</title>
+    <link rel="shortcut icon" href="../icones_fotos/alien-icone.ico" type="image/x-icon">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            font-size: 22px;
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: blueviolet;
+        }
+        .especial{
+            background-color: aqua;
+            
+        }
+        .especial::after{
+            content: '⇦';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+        .especial::before{
+            content: '⇨';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+        h1::before{
+            content:'➾' ;
+        }
+        h1:hover{
+            text-decoration: underline;
+            color: rgb(59, 42, 42);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links </h1>
+    <ul>
+        <li><a href="https://www.instagram.com/thonyfelipesilva/" class="especial" target="_blank" rel="next">instagram</a></li>
+        <li><a href="https://www.youtube.com/channel/UCv9XJOczM2pDd_71iSqOeUw/" target="_blank" rel="next">youtube</a></li>
+        <li><a href="https://github.com/ThonyFs" class="especial" target="_blank" rel="next">github</a></li>
+    </ul>
+</body>
+</html>
