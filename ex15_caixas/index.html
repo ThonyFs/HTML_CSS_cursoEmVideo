@@ -8,11 +8,52 @@
     <title>box models</title>
     <style>
         h1{
-            
+            background-color: lightgray;
+            height: 91px;
+            width: 260px;
+            border-width: 3px;
+            border-style: solid;
+            border-color: darkslategray;
+            padding-top: 10px;
+            padding-right: 4px;
+            padding-bottom: 4px;
+            padding-left: 10px;
+        }
+        a{
+            border-width: 2px;
+            border-style: dotted;
+            border-color: rgb(252, 167, 10);
+            padding-top: 2px;
+            padding-right: 2px;
+            padding-bottom: 2px;
+            padding-left: 2px;
+        }
+        a::before{
+            content: '✓';
+        }
+        a:active{
+            color: rgb(235, 32, 32);
+        }
+        a:hover{
+            text-decoration: none;
+        }
+        p{
+            height: 25px;
+            width: 829px;
+            padding: 4px;
+            padding-bottom: 5px;
+            padding-right: 8px;
+            border-width: 4px;
+            border-right: 0px;
+            border-bottom: 0;
+            border-style: double;
+            border-radius: 8px;
+            background-color: lightgrey;
         }
     </style>
 </head>
 <body>
-    <h1>Olá mundo</h1>
+    <h1>exemplo de caixa BOX LEVEL</h1>
+    <p>paragrafos também são exemplos de box-level <a href="#">Links são exemplos de caixa inline-level</a>. Vamos ver como tudo isso funciona.</p>
 </body>
 </html>
