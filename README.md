@@ -113,6 +113,19 @@ para informar alternativas caso o navegado não aceite mp3: <br>
 
 ## COMANDOS CSS
   
+  <hr>
+  * ORGANIZANDO O CONTEUDO: GROUPING tags : <br>
+  - header : Cabeçalho <br>
+  - nav : Navegação, links <br>
+  - main: Principal <br>
+  - section: Sessões <br>
+  - article: Artigo <br>
+  - footer: Roda-pé <br>
+  
+  
+  
+  
+  
 * ID personalizado: <br>
   (id: HTML e CSS é : # ) (classe: HTML: class / CSS: . ) <br>
   (pseudo-class é: " : ") (pseudo-elemento é : " :: ") <br>
