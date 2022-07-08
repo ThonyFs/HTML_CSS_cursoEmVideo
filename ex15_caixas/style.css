@@ -65,13 +65,15 @@ header > nav > a:hover{
 main {
     background-color: white;
     width: 600px;
-    height: 502px;
+    height: 488px;
     padding: 20px;
     margin: auto;
+    margin-top: 14px;
     border-radius: 29px;
     border-style: double;
     border-width: 4px;
     border-color: #ed6f16;
+    box-shadow: -7px -2px 8px 1px #f59d6080;
 }
 p{
     text-indent: 24px;
