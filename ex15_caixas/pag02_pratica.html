@@ -34,6 +34,22 @@
         }
         header > h1:hover{
             color:rgb(134, 12, 12) ;
+            width: 272px;
+            display: block;
+        }
+        
+        header > h1:hover > #emoji{
+            display: inline;
+        }
+        header > h1 > #emoji{
+            display: none;
+        }
+        header > nav{
+            margin-left: 1132px;
+            margin-bottom: 8px;
+            text-align: right;
+            width: 264px;
+            height: 31px;
         }
         header > nav > a{
             text-decoration: none;
@@ -43,22 +59,25 @@
             margin-right:5px; 
             width: 37px;
             height: 37px;
-            padding: 2px;         
+            padding: 7px;
+            border: 2px solid #2a04a3;
+            border-radius: 36px;        
         }
-        header > nav{
-            margin-left: 1250px;
-            text-align: right;
-            width: 128px;
+        header > nav > a:hover{
+            text-decoration: underline;
+            color: black;
+            border:2px solid #000000;
         }
+        
     </style>
 </head>
 <body>
     <header>
-        <h1>Meu site</h1>
+        <h1>Meu site <span id="emoji">&#x1F47D;</span></h1>
         <nav>
-            <a href="#">Link </a>
-            <a href="#">Link </a>
-            <a href="#">Link </a>
+            <a href="#">GitHub </a>
+            <a href="#">Youtube</a>
+            <a href="#">Instagram</a>
         </nav>
     </header>
     <main>
