@@ -11,7 +11,8 @@
         @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
         body{
             font-family: Arial, Helvetica, sans-serif;
-            margin: 0;
+            font-size: 16px;
+            margin: 0;  background-image: linear-gradient(to top, rgb(246 165 108) 34%, rgb(246 165 108 / 62%), rgb(246 165 108 / 32%));
         }
         header{
             background-image: radial-gradient(circle, rgb(243 140 68 / 79%) 60%, #f93d0252);
@@ -37,7 +38,6 @@
             width: 272px;
             display: block;
         }
-        
         header > h1:hover > #emoji{
             display: inline;
         }
@@ -52,6 +52,7 @@
             height: 31px;
         }
         header > nav > a{
+            color: #2a04a3;
             text-decoration: none;
             font-family: 'Lato', sans-serif;
             font-weight: bold;
@@ -68,21 +69,64 @@
             color: black;
             border:2px solid #000000;
         }
-        
+        main {
+            background-color: white;
+            width: 600px;
+            height: 502px;
+            padding: 20px;
+            margin: auto;
+            border-radius: 29px;
+            border-style: double;
+            border-width: 4px;
+            border-color: #ed6f16;
+        }
+        p{
+            text-indent: 24px;
+            text-align: justify;
+            margin-left: 26px;
+        }
+        h2{
+            color: #00008b;
+            font-weight: bold;
+            font-size: 27px;
+            margin-left: 24px;
+        }
+        aside{
+            font-style: italic;
+            font-size: 11px;
+        }
+        footer{
+            background-color: #808080a1;
+            height: 44px;
+            padding-top: 0.5px;
+            padding-bottom: 0px;
+            border-radius: 7px;
+            margin-top: 13px;
+        }
+        footer > p{
+            height: 23px;
+            width: 224px;
+            margin-top: 16px;
+            margin-bottom: 0px;
+            margin-left: -13px;
+            font-size: 11px;
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Meu site <span id="emoji">&#x1F47D;</span></h1>
         <nav>
-            <a href="#">GitHub </a>
-            <a href="#">Youtube</a>
-            <a href="#">Instagram</a>
+            <a href="https://github.com/ThonyFs" target="_blank" rel="external">GitHub </a>
+            <a href="https://www.youtube.com/channel/UCv9XJOczM2pDd_71iSqOeUw/" target="_blank" rel="external">Youtube</a>
+            <a href="https://www.instagram.com/thonyfelipesilva/" target="_blank" rel="external">Instagram</a>
         </nav>
     </header>
     <main>
         <section id="assunto">
-
+            <h2>Treinando organização de caixas</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore possimus adipisci nostrum eligendi dolore ab iusto, culpa tenetur maiores quos officiis inventore error corrupti sequi tempore sed ducimus mollitia nisi.</p>
         </section>
         <section id="noticia">
             <article>
@@ -91,9 +135,6 @@
                 <aside>
                     <p>Artigo escrito por Lorem</p>
                 </aside>
-            </article>
-            <article>
-
             </article>
         </section>
     </main>
