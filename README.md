@@ -2,6 +2,7 @@
 curso HTML5 &amp; CSS3 do canal Curso em Vídeo.   
 
 * https://www.w3schools.com/charsets/ref_utf_symbols.asp (link para pag de simbolos)
+* mockflow.com (projetar a pag web)
 * https://erikasarti.com/html/dingbats-simbolos-desenhos/ (simbolos) 
 * https://emojipedia.org/ (link para pag de emoji)
 * https://unsplash.com/ ( biblioteca de imagens com licenças)

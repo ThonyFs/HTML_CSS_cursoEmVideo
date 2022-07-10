@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icones_fotos/alien-icone.ico" type="image/x-icon">
+    <title>box models</title>
+    <style>
+        h1{
+            background-color: lightgray;
+            height: 91px;
+            width: 260px;
+
+            /* border-width: 3px;
+            border-style: solid;
+            border-color: darkslategray;
+            --ABAIXO ESTA A SIMPLIFICADO-- */
+
+            border: 10px solid darkgray;
+            
+            /* padding-top: 10px;
+            padding-right: 4px;
+            padding-bottom: 4px;
+            padding-left: 10px;
+            --ABAIXO ESTA A SIMPLIFICADO-- */
+
+            padding: 10px 4px 4px 10px;
+
+            /* margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 40px;
+            margin-left: 10px;
+            --ABAIXO ESTA A SIMPLIFICADO--*/
+            
+            margin:10px auto 40px auto;
+/* 
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: black;
+            --ABAIXO ESTA A SIMPLIFICADO-- */
+
+            outline: 5px dashed black;
+        }
+        a{
+            border-width: 2px;
+            border-style: dotted;
+            border-color: rgb(252, 167, 10);
+            padding-top: 2px;
+            padding-right: 2px;
+            padding-bottom: 2px;
+            padding-left: 2px;
+            
+        }
+        a::before{
+            content: '✓';
+        }
+        a:active{
+            color: rgb(235, 32, 32);
+        }
+        a:hover{
+            text-decoration: none;
+        }
+        p{
+            height: 25px;
+            width: 829px;
+            padding: 4px;
+            padding-bottom: 5px;
+            padding-right: 8px;
+            border-width: 4px;
+            border-right: 0px;
+            border-bottom: 0;
+            border-style: double;
+            border-radius: 8px;
+            background-color: lightgrey;
+            text-align: center;
+            margin: 10px auto 10px auto;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>exemplo de caixa BOX LEVEL</h1>
+    <p>paragrafos também são exemplos de box-level <a href="#">Links são exemplos de caixa inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>
