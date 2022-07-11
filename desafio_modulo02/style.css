@@ -7,11 +7,6 @@
     font-style: normal;
     }
 
-    *{
-        margin: 0px;
-        padding: 0px;
-    }
-
     :root{
         --cor01: #c5ebd6;
         --cor02: #83e1ad;
@@ -24,8 +19,14 @@
         --font-android: 'idroid';
     }
 
+    *{
+        margin: 0px;
+        padding: 0px; 
+    }
+
     body{
        background-color: var(--cor01);
+       font-family: var(--font-padrao);
     }
 
     header{
@@ -40,13 +41,12 @@
     }
 
     header > p{
-        font-family:var(--font-padrao);
         color: white;
         text-align: center;
     }
 
     nav{
-        background-color: var(--cor04);
+        background-color: var(--cor05);
     }
 
     nav > a{
@@ -71,8 +71,11 @@
         color: var(--cor05);
     }
 
-    p{
-        font-family: var(--font-padrao);
-        text-align: justify;
+    main ul{
+        margin: 30px;
     }
 
+    footer{
+        background-color: var(--cor05);
+        color: white;
+    }
