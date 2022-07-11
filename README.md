@@ -185,6 +185,7 @@ outline-color: black; <br>
   - border-style: dotted (borta pontilhada) ; dashed (borda tracejada); solid (linha continua); groove ( margem 3d); <br>
 <hr>
  
+* transition-duration: 0.25s; (transição ao passar o mouse)  
 * display: none( para não aparecer na tela) ; block (para aparecer na tela)
 * background-image: radial-gradient(circle,  #0400F2 70%, #000000); (colorir fundo com diversas cores no formato de circulo) <br>
 * background-color: rgb(248, 185, 114); (colorir fundo) <br>
