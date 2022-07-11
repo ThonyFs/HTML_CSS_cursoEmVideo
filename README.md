@@ -17,6 +17,7 @@ curso HTML5 &amp; CSS3 do canal Curso em Vídeo.
 * http://www.paletton.com/ (gerenciador de paleta de cores com simulador de pag web)
 * chrome web store > colorzilla (plugin para coletar cores de paginas web)
 * chrome web store > Fonts Ninja (plugin capturar fonts de site)
+* Window Resizer > plugin para visualir tamanho da tela (responsividade)
 * https://fonts.google.com/ (site de fontes externas)
 * https://www.whatfontis.com/ (captura font de fotos)
 * https://www.dafont.com/pt (download de fonts)
@@ -238,13 +239,35 @@ outline-color: black; <br>
         --cor03: #3ddc84; <br>
         --cor04: #2fa866; <br>
         --cor05: #063d1e; <br>
-<br>
         --font-destaque: 'Bebas Neue', cursive; <br>
         --font-padrao: 'Arial', Helvetica, sans-serif; <br>
         --font-android: 'idroid'; <br>
     } <br>
 
 <hr>
+  
+###  RESPONSIVIDADE
+  
+  * imagens devem ser declarada com " width: 100%; " para se adaptar ao tamanho total. exemplo de img: <br>
+  < picture> <br>
+                
+                <source media="(max-width:600px )" srcset="imagens/dan-droids-pq.png"> <br>
+                
+                <img src="imagens/dan-droids.png" alt="Primeira versão dos mascotes do android"> <br>
+                
+            < /picture> <br>
+max-width, ao alcançar esse valor maximo é apresentado a imagem principal(imagem de baixo) <br>
+IMAGENS naturalmente não são consiradas block, para alterar isso deve se informado: <br> 
+display: block; ( assim pode utilizar margin: auto; para centralizar) <br> 
+             
+* main deve ser informado o tamanho minimo e maximo: <br>
+       main{ <br>      
+        padding: 20px; <br>
+        background-color: white;  <br>
+        min-width: 320px; <br>
+        max-width: 1000px; <br>
+        margin: auto; <br>
+        margin-bottom:30px ; <br>
 
 ### INTERNO 
 
