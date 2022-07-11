@@ -228,8 +228,23 @@ outline-color: black; <br>
 
 
 <hr>
-  
+ 
+ ### VARIAVEIS
+ 
+ * : root é uma pseudo-classe que é a raiz do documento, criando variaveis para facilitar, criando variaveis globais: <br>
+ :root{ <br>
+        --cor01: #c5ebd6; <br>
+        --cor02: #83e1ad; <br>
+        --cor03: #3ddc84; <br>
+        --cor04: #2fa866; <br>
+        --cor05: #063d1e; <br>
+<br>
+        --font-destaque: 'Bebas Neue', cursive; <br>
+        --font-padrao: 'Arial', Helvetica, sans-serif; <br>
+        --font-android: 'idroid'; <br>
+    } <br>
 
+<hr>
 
 ### INTERNO 
 
