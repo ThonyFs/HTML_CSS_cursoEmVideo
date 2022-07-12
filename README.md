@@ -99,7 +99,7 @@ na área < head> digite __LINK__ e escolha "link:favicon", no atributo "href" in
 * < a href="link" target="_blank / _self" rel="external"> - adicionar link externo que abre em nova aba do navegador (_self para atuar na mesma pag)
 * < A href="link" target="_black / _self" rel="external / nofollow"> - link de pagina interna. para retornar, o caminho deve conter " ../arquivo" 
 * < a href="livro/livro_pdf.pdf" target="_blank" download="livro_pdf" type="application/pdf"> - utilizado para download(type, verificar no link informado)
-* < picture> source:media:type (source media="(max-width:1000px)" srcset="arquivo" type="image/png"(extensao da foto) -adicionar o source do tamanho menor pro maior, media="(MAX-width:1000)
+* < picture> <br> source:media:type (source media="(max-width:1000px)" srcset="arquivo" type="image/png"(extensao da foto) -adicionar o source do tamanho menor pro maior, media="(MAX-width:1000) <br>
 * < audio src="arquivo.mp3" controls autoplay> - utilizado para colocar audio <br>
 para informar alternativas caso o navegado não aceite mp3: <br>
  < audio controls autoplay loop> <br>
