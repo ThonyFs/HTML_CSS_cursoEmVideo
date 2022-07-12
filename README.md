@@ -116,7 +116,9 @@ para informar alternativas caso o navegado não aceite mp3: <br>
 ## COMANDOS CSS
   
   <hr>
+  
   * ORGANIZANDO O CONTEUDO: GROUPING tags : <br>
+  
   - header : Cabeçalho <br>
   - nav : Navegação, links <br>
   - main: Principal <br>
@@ -178,6 +180,7 @@ outline-width: 5px (borda dentro da margin) <br>
 outline-style: dashed; <br>
 outline-color: black; <br>
   <br>
+  
 *  SIMPLIFICANDO: pode informar somente padding , margin, width e seus valores na orde sentido horario: top/ rigth/ bottom/ left <br>
   Se informar apenas DOIS valores ele identifica que é : TOP e BOTTOM / RIGTH e LEFT <br>
   na MARGIN por informar rigth e left com : AUTO para centralizar  <br>
@@ -185,6 +188,7 @@ outline-color: black; <br>
   - border-style: dotted (borta pontilhada) ; dashed (borda tracejada); solid (linha continua); groove ( margem 3d); <br>
 <hr>
  
+* line-height : altura da linha 
 * transition-duration: 0.25s; (transição ao passar o mouse)  
 * display: none( para não aparecer na tela) ; block (para aparecer na tela)
 * background-image: radial-gradient(circle,  #0400F2 70%, #000000); (colorir fundo com diversas cores no formato de circulo) <br>
