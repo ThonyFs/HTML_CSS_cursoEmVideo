@@ -188,6 +188,9 @@ outline-color: black; <br>
   - border-style: dotted (borta pontilhada) ; dashed (borda tracejada); solid (linha continua); groove ( margem 3d); <br>
 <hr>
  
+* list-style-type: '\2714\00A0\00A0'; (adiciona o emoji de check, (usar contra barra no lugar do #) ( 00A0 = espaço)
+* list-style-position: inside; (coloca lita para dentro do quadro)
+* columns: 2; (divide as colunas)
 * line-height : altura da linha 
 * transition-duration: 0.25s; (transição ao passar o mouse)  
 * display: none( para não aparecer na tela) ; block (para aparecer na tela)
