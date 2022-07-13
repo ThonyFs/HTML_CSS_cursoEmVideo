@@ -176,6 +176,8 @@ para informar alternativas caso o navegado não aceite mp3: <br>
     } <br>
   <br>
   
+  * OQUE ENTENDI : ao colocar o video do youtube dentro da DIV você pode alterar as dimençõs, implementando o tamanho da div e informando positio: relative e no iframe o position: absolute; te permite ajustar ele de uma forma que vai ficar responsivo.
+  
   <hr>
   
 * tipos de caixa : <br>
