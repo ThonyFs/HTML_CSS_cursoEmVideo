@@ -158,6 +158,26 @@ para informar alternativas caso o navegado não aceite mp3: <br>
   
   <hr>
   
+  * video responsivo, exemplo: <br>
+  div.video{ <br>
+        background-color: var(--cor05); <br>
+        margin: 0px -20px 30px -20px; <br>
+        padding: 20px; <br>
+        padding-bottom: 59%; <br>
+        position:relative ; <br>
+    }
+<br>
+    div.video > iframe{ <br>
+        position: absolute; <br>
+        top: 5%; <br>
+        left: 5%; <br>
+        width: 90%; <br>
+        height: 90%; <br>
+    } <br>
+  <br>
+  
+  <hr>
+  
 * tipos de caixa : <br>
   box-level: (sempre se inicia em linha nova e ocupa a largura inteira; ) EX: DIV; H1; P; MAIN; HEADER; NAV; ARTICLE; ASIDE; FOOTER; FORM; VIDEO <br>
   inline-level: (sempre inicia na mesma linha e ocupa o tamanho do conteudo do elemento e não quebra linha; ) EX: SPAN; A; CODE; SMALL; STRONG; EM; SUP - SUB; LABEL; BUTTON; INPUT; SELECT;  <br>
