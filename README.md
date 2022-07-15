@@ -158,7 +158,7 @@ para informar alternativas caso o navegado não aceite mp3: <br>
   
   <hr>
   
-  * video responsivo, exemplo: <br>
+## video responsivo, exemplo: <br>
   div.video{ <br>
         background-color: var(--cor05); <br>
         margin: 0px -20px 30px -20px; <br>
@@ -176,7 +176,7 @@ para informar alternativas caso o navegado não aceite mp3: <br>
     } <br>
   <br>
   
-  * OQUE ENTENDI : ao colocar o video do youtube dentro da DIV você pode alterar as dimençõs, implementando o tamanho da div e informando positio: relative e no iframe o position: absolute; te permite ajustar ele de uma forma que vai ficar responsivo.
+* OQUE ENTENDI : ao colocar o video do youtube dentro da DIV você pode alterar as dimençõs, implementando o tamanho da div e informando positio: relative e no iframe o position: absolute; te permite ajustar ele de uma forma que vai ficar responsivo.
   
   <hr>
   
