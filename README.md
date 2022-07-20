@@ -195,12 +195,15 @@ style{ <br>
 background-position: center center; <br>
 } <br>
 
-# background-size:  <br>
+## background-size:  <br>
 tamanho fixo: 100% 100% (altura e largura)<br>
 auto: automatico <br>
 contain: mostrar 100% da imagem 
 independente e tentar adaptar; <br>
 cover: (cobrir a tela inteira mesmo se precisar picotar a imagem <br>
+
+## shorthand background : <br>
+SHORTHAND: background: color > image > position > repeat > attachment . <br> {  background: BLACK url('imagens/wallpaper002.jpg') center center no-repeat fixed;<br> background-size: cover; <br>} <br>
 
 <hr>
   
