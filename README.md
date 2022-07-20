@@ -205,6 +205,17 @@ cover: (cobrir a tela inteira mesmo se precisar picotar a imagem <br>
 ## shorthand background : <br>
 SHORTHAND: background: color > image > position > repeat > attachment . <br> {  background: BLACK url('imagens/wallpaper002.jpg') center center no-repeat fixed;<br> background-size: cover; <br>} <br>
 
+## Alinhamento vertical: 
+* informe <strong> Position: relative; </strong> para container que ficará fixo <br>
+* informe <strong> Position: absolut; </strong> na imagem que vai ser movida. <br>
+
+* utilize: left / top para posicionar. <br>
+left: 50% <br>
+top: 50% <br>
+
+* transform: translate(-50%, -50%); <br>
+utilize para centralizar a div bem ao centro, pois o transform te permite deslocar a imagem.
+
 <hr>
   
 ## tipos de caixa : <br>
