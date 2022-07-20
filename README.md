@@ -194,6 +194,14 @@ utilizando o background-position, deve informar primeiro a coluna dpois a linha;
 style{ <br>
 background-position: center center; <br>
 } <br>
+
+# background-size:  <br>
+tamanho fixo: 100% 100% (altura e largura)<br>
+auto: automatico <br>
+contain: mostrar 100% da imagem 
+independente e tentar adaptar; <br>
+cover: (cobrir a tela inteira mesmo se precisar picotar a imagem <br>
+
 <hr>
   
 ## tipos de caixa : <br>
