@@ -188,6 +188,12 @@ background-size: 100px 100px;<br>
 background-repeat: repeat; <br>
 } }<br>
 
+* position: 
+
+utilizando o background-position, deve informar primeiro a coluna dpois a linha;<br>
+style{ <br>
+background-position: center center; <br>
+} <br>
 <hr>
   
 ## tipos de caixa : <br>
