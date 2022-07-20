@@ -179,8 +179,46 @@ para informar alternativas caso o navegado não aceite mp3: <br>
 * OQUE ENTENDI : ao colocar o video do youtube dentro da DIV você pode alterar as dimençõs, implementando o tamanho da div e informando positio: relative e no iframe o position: absolute; te permite ajustar ele de uma forma que vai ficar responsivo.
   
   <hr>
+
+## Background-image: <br>
+Utilizando background-image: url() ; você pode colocar o caminho da imagem para ficar de imagem de fundo, cuidar o tamanho da imagem. <br>
+style{ body{ <br>
+background-image: url('imagens/pattern001.png');<br>
+background-size: 100px 100px;<br>
+background-repeat: repeat; <br>
+} }<br>
+
+* position: 
+
+utilizando o background-position, deve informar primeiro a coluna dpois a linha;<br>
+style{ <br>
+background-position: center center; <br>
+} <br>
+
+## background-size:  <br>
+tamanho fixo: 100% 100% (altura e largura)<br>
+auto: automatico <br>
+contain: mostrar 100% da imagem 
+independente e tentar adaptar; <br>
+cover: (cobrir a tela inteira mesmo se precisar picotar a imagem <br>
+
+## shorthand background : <br>
+SHORTHAND: background: color > image > position > repeat > attachment . <br> {  background: BLACK url('imagens/wallpaper002.jpg') center center no-repeat fixed;<br> background-size: cover; <br>} <br>
+
+## Alinhamento vertical: 
+* informe <strong> Position: relative; </strong> para container que ficará fixo <br>
+* informe <strong> Position: absolut; </strong> na imagem que vai ser movida. <br>
+
+* utilize: left / top para posicionar. <br>
+left: 50% <br>
+top: 50% <br>
+
+* transform: translate(-50%, -50%); <br>
+utilize para centralizar a div bem ao centro, pois o transform te permite deslocar a imagem.
+
+<hr>
   
-* tipos de caixa : <br>
+## tipos de caixa : <br>
   box-level: (sempre se inicia em linha nova e ocupa a largura inteira; ) EX: DIV; H1; P; MAIN; HEADER; NAV; ARTICLE; ASIDE; FOOTER; FORM; VIDEO <br>
   inline-level: (sempre inicia na mesma linha e ocupa o tamanho do conteudo do elemento e não quebra linha; ) EX: SPAN; A; CODE; SMALL; STRONG; EM; SUP - SUB; LABEL; BUTTON; INPUT; SELECT;  <br>
   MEDIDAS DAS CAIXAS: <br>
