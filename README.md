@@ -247,7 +247,11 @@ outline-color: black; <br>
   <br>
   - border-style: dotted (borta pontilhada) ; dashed (borda tracejada); solid (linha continua); groove ( margem 3d); <br>
 <hr>
- 
+  
+
+* text-transform: uppercase; ( deixa todas as letras maiusculas)  
+* font-variant: small-caps; (deixa as letras como se estivessem maiuscula mas  a primeira letra maior) 
+* font-size: 10VW; (tamanho da font baseada no tamanho da tela)
 * list-style-type: '\2714\00A0\00A0'; (adiciona o emoji de check, (usar contra barra no lugar do #) ( 00A0 = espaço)
 * list-style-position: inside; (coloca lita para dentro do quadro)
 * columns: 2; (divide as colunas)
