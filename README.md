@@ -202,6 +202,9 @@ contain: mostrar 100% da imagem
 independente e tentar adaptar; <br>
 cover: (cobrir a tela inteira mesmo se precisar picotar a imagem <br>
 
+## background-attachment: fixed;
+mantem a imagem fixa ao fundo , Efeito Paralax.
+
 ## shorthand background : <br>
 SHORTHAND: background: color > image > position > repeat > attachment . <br> {  background: BLACK url('imagens/wallpaper002.jpg') center center no-repeat fixed;<br> background-size: cover; <br>} <br>
 
